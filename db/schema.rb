@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_07_01_200904) do
+ActiveRecord::Schema.define(version: 2019_07_08_194219) do
 
   create_table "alunos", force: :cascade do |t|
     t.integer "matricula_id"
@@ -34,6 +34,7 @@ ActiveRecord::Schema.define(version: 2019_07_01_200904) do
     t.string "curso"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "image"
   end
 
 end

@@ -20,5 +20,9 @@
   <%= @matricula.curso %>
 </p>
 
+<p>
+	<%= image_tag(@matricula.image_url) %>
+</p>
+
 <%= link_to 'Edit', edit_matricula_path(@matricula) %> |
 <%= link_to 'Back', matriculas_path %>

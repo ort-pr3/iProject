@@ -69,6 +69,6 @@ class MatriculasController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def matricula_params
-      params.require(:matricula).permit(:numero, :nome, :ano, :curso)
+      params.require(:matricula).permit(:numero, :nome, :ano, :curso, :image)
     end
 end
