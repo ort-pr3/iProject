@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Numero:</strong>
+  <%= @matricula.numero %>
+</p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @matricula.nome %>
+</p>
+
+<p>
+  <strong>Ano:</strong>
+  <%= @matricula.ano %>
+</p>
+
+<p>
+  <strong>Curso:</strong>
+  <%= @matricula.curso %>
+</p>
+
+<%= link_to 'Edit', edit_matricula_path(@matricula) %> |
+<%= link_to 'Back', matriculas_path %>

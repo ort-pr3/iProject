@@ -1,0 +1,3 @@
+class Matricula < ApplicationRecord
+	
+end
